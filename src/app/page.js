@@ -1,95 +1,55 @@
+import { Container } from "react-bootstrap";
+import homePhoto from "../app/Asset/bg.webp";
 import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <section className="homesection">
+        <div className="myHome">
+          <Container>
+            <div className="homContainer">
+              <div className="homeCOntent">
+                <h2 className="name">I'M Raju Ahammed</h2>
+                <h4>Web Developer</h4>
+              </div>
+              <div className="homePhoto">
+                <Image
+                  className="homeImage img-fluid"
+                  src={homePhoto}
+                  alt="Web Logo"
+                />
+              </div>
+            </div>
+          </Container>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      </section>
+      <section className="aboutSection">
+        <Container>
+          <div className="mainAbout">
+            <div className="aboutPhoto">
+              <Image
+                className="aboutImage img-fluid"
+                src={homePhoto}
+                alt="Web Logo"
+              />
+            </div>
+            <div className="aboutContent">
+              <h1 className="aboutme">About Me</h1>
+              <div className="borderline"></div>
+              <div className="borderlineTwo"></div>
+              <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                mollitia nemo, suscipit eaque molestias aperiam dignissimos
+                commodi nostrum architecto qui nesciunt quas esse veniam velit
+                doloremque consequatur cumque eos modi nisi. Harum beatae
+                voluptatum, consequuntur odio velit officia, perspiciatis
+                maiores qui dicta deserunt maxime perferendis necessitatibus
+                pariatur ipsa molestias aut.
+              </article>
+            </div>
+          </div>
+        </Container>
+      </section>
     </main>
   );
 }

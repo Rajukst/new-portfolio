@@ -40,8 +40,8 @@
   font-weight: bold;
 }
 .homeImage{
-  height: 100vh;
-  width: 60vw;
+  height: 550px;
+  width: 550px;
   filter: grayscale(100%);
 }
 .aboutPhoto{

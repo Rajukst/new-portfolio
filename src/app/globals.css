@@ -79,3 +79,71 @@
   border: 1px solid black;
   width: 25vw;
 }
+.articleOne{
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  word-spacing: 1.1px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.articleTwo{
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  word-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+.socialIcons i{
+  margin-right: 20px;
+}
+.workHeadingTwo{
+display: flex;
+padding: 10px;
+transition: all 0.5s ease-out;
+}
+.skillCorner{
+  margin-top: 40px;
+}
+.skillImage{
+  padding: 5px;
+  transition: all 0.5s ease-out;
+}
+.skillImage:hover, .skillImage:focus{
+  background-color: #ededed;
+  border-radius: 3px;
+}
+.workHeadingTwo:hover, .workHeadingTwo:focus{
+  background-color: #ededed;
+  border-radius: 3px;
+}
+
+.homeImages{
+  height: 40px;
+  width: 40px;
+}
+.workContent{
+  margin-left: 20px;
+}
+.workActivites{
+  margin-top: 50px;
+}
+.hrLine{
+  border-right: 2px solid #d1d5db;
+  height: 23vh;
+  margin-top: 20px;
+}
+.skillDevelopment{
+  margin-top: 40px;
+}
+.followMe i{
+  margin-right: 30px;
+}
+.mainGet{
+  display: flex;
+  margin-top: 40px;
+}
+.nameAndEmail {
+  width: 50%;
+  display: flex;
+}

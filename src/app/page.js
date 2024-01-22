@@ -276,7 +276,7 @@ export default function Home() {
                 <i className="fa-brands fa-github"></i>
               </div>
             </div>
-            <div className="touchInput">
+            <div className="touchInput ps-5">
               <div className="nameAndEmail">
                 <div className="name">
                 <input type="text" name="" id="" placeholder="Name" />
@@ -284,6 +284,10 @@ export default function Home() {
                <div className="email">
                <input type="email" name="" id="" placeholder="Email" />
                </div> 
+              </div>
+              <textarea className="getTxtArea mt-3" name="" id="" cols="" rows="" placeholder="Message Here"></textarea>
+              <div className="sendButtons">
+                <button className="SendButton mt-3 mb-3">Send Message <i className="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>

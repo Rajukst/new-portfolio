@@ -20,19 +20,20 @@
 
 .navContent {
   display: flex;
-  padding-left: 40px;
 }
 
 /* Add some styles to the links if needed */
 .navContent a {
   color: white;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 35px;
+
 }
 
 /* Example: Change link color on hover */
 .navContent a:hover {
   color: #ffd700; /* Change to your desired hover color */
+ 
 }
 .logoImage{
   margin-left: 30px;
@@ -54,6 +55,10 @@
 .homeCOntent h2,h4{
   margin-bottom: 20px;
   letter-spacing: 3.5px;
+}
+.SkillImages{
+  height: 150px;
+  width: 150px;
 }
 .name{
   font-weight: bold;
@@ -165,4 +170,43 @@ transition: all 0.5s ease-out;
 .nameAndEmail {
   width: 50%;
   display: flex;
+}
+.nameAndEmail {
+  display: flex;
+}
+
+.nameAndEmail .name,
+.nameAndEmail .email {
+  margin-right: 10px; /* Adjust the margin as needed for spacing between elements */
+}
+
+.nameAndEmail input {
+  /* width: 50%; Make the input take up the full width of its container */
+  width: 400px;
+  padding: 10px; /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Border style */
+  outline: none; /* Remove outline on focus */
+}
+
+.nameAndEmail input::placeholder {
+  color: #999; /* Placeholder text color */
+}
+.getTxtArea{
+  margin-right: 10px;
+  width: 810px;
+  padding: 10px; /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Border style */
+  outline: none;
+}
+.getTxtArea::placeholder{
+  color: #999;
+}
+.SendButton{
+  align-items: center;
+  padding: 10px 30px;
+  border: none !important;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
 }

@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.navbar{
-
+.navbar {
   background-color: #202020;
   color: white;
   display: flex;
@@ -13,17 +12,34 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Set a high z-index to ensure it stays above other elements */
+}
+
+.navContent {
+  display: flex;
+  padding-left: 40px;
+}
+
+/* Add some styles to the links if needed */
+.navContent a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Example: Change link color on hover */
+.navContent a:hover {
+  color: #ffd700; /* Change to your desired hover color */
 }
 .logoImage{
   margin-left: 30px;
   height: 50px;
   width: 45px;
 }
-.navContent a{
-  color: #fefefc;
-  text-decoration: none;
-  padding-right: 30px;
-}
+
 .myHome{
   background-color: #202020;
   color: white;

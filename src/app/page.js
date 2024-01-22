@@ -271,9 +271,9 @@ export default function Home() {
               <article><i className="fa-solid fa-at"></i> rajuahamedkst15@gmail.com</article>
               <div className="followMe">
               <i className="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-github"></i>
               </div>
             </div>
             <div className="touchInput">
@@ -283,8 +283,7 @@ export default function Home() {
                 </div>
                <div className="email">
                <input type="email" name="" id="" placeholder="Email" />
-               </div>
-               
+               </div> 
               </div>
             </div>
           </div>

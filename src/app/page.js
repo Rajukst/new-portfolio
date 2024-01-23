@@ -77,7 +77,228 @@ export default function Home() {
           </div>
         </Container>
       </section>
+      <section className="workActivites"id="#work">
+        <Container>
+          <Row>
+            <Col>
+              <div className="workHeadingTwo">
+                <Image
+                  className="homeImages img-fluid"
+                  src={designPhoto}
+                  alt="Web Logo"
+                />
+                <div className="hrLine"></div>
+                <div className="workContent">
+                  <h5>DevOps Development</h5>
+                  <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis tempore ex quam ullam sint ipsam doloremque
+                    culpa aspernatur nostrum officiis?
+                  </article>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className="workHeadingTwo">
+                <Image
+                  className="homeImages img-fluid"
+                  src={designPhoto}
+                  alt="Web Logo"
+                />
+                <div className="hrLine"></div>
+                <div className="workContent">
+                  <h5>Web Development</h5>
+                  <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis tempore ex quam ullam sint ipsam doloremque
+                    culpa aspernatur nostrum officiis?
+                  </article>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className="workHeadingTwo">
+                <Image
+                  className="homeImages img-fluid"
+                  src={designPhoto}
+                  alt="Web Logo"
+                />
+                <div className="hrLine"></div>
+                <div className="workContent">
+                  <h5>Web Design</h5>
+                  <article>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis tempore ex quam ullam sint ipsam doloremque
+                    culpa aspernatur nostrum officiis?
+                  </article>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
+
+       <section className="skillDevelopment" id="#skills">
+        <Container>
+          <h1 className="aboutme">Skills</h1>
+          <div className="borderline"></div>
+          <div className="borderlineTwo"></div>
+          <Row className="g-4 skillCorner">
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={html}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={css}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={js}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={react}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={next}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={node}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={express}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={mongodb}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={bootstrap}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={mui}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={aws}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+            <Col xs={6} md={2} lg={2}>
+              <div className="skillImage">
+                <Image
+                  className="SkillImages img-fluid"
+                  src={devops}
+                  alt="Web Logo"
+                />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+
+
+      <section className="projectSection"id="#projects">
+      <h1>This is Project section</h1>
+      </section>
+
+   <section className="getInTouch"id="#contact">
+      <Container>
+      <h1 className="aboutme">Get In Touch</h1>
+          <div className="borderline"></div>
+          <div className="borderlineTwo"></div>
+          <div className="mainGet">
+            <div className="getContent">
+              <article>
+                House#258, Road#3, Baridhara DOHS, <br /> Dhaka-1206.
+              </article>
+              <article><i className="fa-solid fa-phone"></i>+8801765629262, <i className="fa-brands fa-whatsapp"></i> +8801765629262 </article>
+              <article><i className="fa-solid fa-at"></i> rajuahamedkst15@gmail.com</article>
+              <div className="followMe">
+              <i className="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-github"></i>
+              </div>
+            </div>
+            <div className="touchInput ps-5">
+              <div className="nameAndEmail">
+                <div className="name">
+                <input type="text" name="" id="" placeholder="Name" />
+                </div>
+               <div className="email">
+               <input type="email" name="" id="" placeholder="Email" />
+               </div> 
+              </div>
+              <textarea className="getTxtArea mt-3" name="" id="" cols="" rows="" placeholder="Message Here"></textarea>
+              <div className="sendButtons">
+                <button className="SendButton mt-3 mb-3">Send Message <i className="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+      </Container>
+      </section>    
     </main>
   );
 }

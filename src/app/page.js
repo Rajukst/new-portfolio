@@ -21,15 +21,19 @@ export default function Home() {
       <section className="homesection" id="#home">
         <div className="myHome">
           <Container>
-            <Col>
-           <div className="names">
+            <div className="homeContainer">
+            <div className="names">
            <h1 className="name">I'M Raju Ahammed</h1>
                 <h4>Web Developer</h4>
            </div>
-            </Col>
-            <Col>
-            
-            </Col>
+           <div className="homePhoto">
+           <Image
+                  className="homeImage img-fluid"
+                  src={homePhoto}
+                  alt="Web Logo"
+                />
+           </div>
+            </div>
           </Container>
         </div>
       </section>

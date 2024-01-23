@@ -48,5 +48,13 @@
   color: white;
 }
 .names{
-  align-items: center;
+  padding-top: 50vh;
+}
+.homeImage{
+  height: 100vh;
+  width: 50vw;
+  filter: grayscale(100%);
+}
+.homeContainer{
+  display: flex;
 }

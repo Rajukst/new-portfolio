@@ -12,7 +12,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 30px;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000; /* Set a high z-index to ensure it stays above other elements */
@@ -41,176 +41,12 @@
   width: 45px;
 }
 
-.myHome{
-  background-color: #202020;
-  color: white;
-}
-.homContainer{
-  display: flex;
-  align-items: center;
-}
-.homeCOntent{
-  width: 100%;
-}
-.homeCOntent h2,h4{
-  margin-bottom: 20px;
-  letter-spacing: 3.5px;
-}
-.SkillImages{
-  height: 150px;
-  width: 150px;
-}
 .homesection{
   height: 100vh;
   width: 100%;
-}
-.name{
-  font-weight: bold;
-}
-.homeImage{
-  /* height: 100vh;
-  width: 105vw; */
-  filter: grayscale(100%);
-}
-.aboutPhoto{
-  height: 400px;
-  width: 350px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border-bottom-right-radius: 20px 20px;
-}
-.aboutImage{
   background-color: #202020;
-  height: 400px;
-  width: 350px;
-  margin-left: -40px;
-  margin-top: -40px;
-  border-radius: 5px;
-}
-.aboutSection{
-  margin-top: 80px;
-}
-.mainAbout{
-  display: flex;
-}
-.aboutContent{
-  margin-left: 70px;
-  width: 50%;
-}
-.aboutme{
-  font-weight: bold;
-}
-.borderline{
-  border: 3px solid black;
-  width: 5vw;
-}
-.borderlineTwo{
-  border: 1px solid black;
-  width: 25vw;
-}
-.articleOne{
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 1.5px;
-  word-spacing: 1.1px;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
-.articleTwo{
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 1.5px;
-  word-spacing: 1.1px;
-  margin-bottom: 20px;
-}
-.socialIcons i{
-  margin-right: 20px;
-}
-.workHeadingTwo{
-display: flex;
-padding: 10px;
-transition: all 0.5s ease-out;
-}
-.skillCorner{
-  margin-top: 40px;
-}
-.skillImage{
-  padding: 5px;
-  transition: all 0.5s ease-out;
-}
-.skillImage:hover, .skillImage:focus{
-  background-color: #ededed;
-  border-radius: 3px;
-}
-.workHeadingTwo:hover, .workHeadingTwo:focus{
-  background-color: #ededed;
-  border-radius: 3px;
-}
-
-.homeImages{
-  height: 40px;
-  width: 40px;
-}
-.workContent{
-  margin-left: 20px;
-}
-.workActivites{
-  margin-top: 50px;
-}
-.hrLine{
-  border-right: 2px solid #d1d5db;
-  height: 23vh;
-  margin-top: 20px;
-}
-.skillDevelopment{
-  margin-top: 40px;
-}
-.followMe i{
-  margin-right: 30px;
-}
-.mainGet{
-  display: flex;
-  margin-top: 40px;
-}
-.nameAndEmail {
-  width: 50%;
-  display: flex;
-}
-.nameAndEmail {
-  display: flex;
-}
-
-.nameAndEmail .name,
-.nameAndEmail .email {
-  margin-right: 10px; /* Adjust the margin as needed for spacing between elements */
-}
-
-.nameAndEmail input {
-  /* width: 50%; Make the input take up the full width of its container */
-  width: 400px;
-  padding: 10px; /* Adjust the padding as needed */
-  border: 1px solid #ccc; /* Border style */
-  outline: none; /* Remove outline on focus */
-}
-
-.nameAndEmail input::placeholder {
-  color: #999; /* Placeholder text color */
-}
-.getTxtArea{
-  margin-right: 10px;
-  width: 810px;
-  padding: 10px; /* Adjust the padding as needed */
-  border: 1px solid #ccc; /* Border style */
-  outline: none;
-}
-.getTxtArea::placeholder{
-  color: #999;
-}
-.SendButton{
-  align-items: center;
-  padding: 10px 30px;
-  border: none !important;
-  outline: none;
-  background-color: black;
   color: white;
-  font-weight: 400;
+}
+.names{
+  align-items: center;
 }

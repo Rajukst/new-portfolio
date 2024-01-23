@@ -18,7 +18,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <section className="homesection">
+      <section className="homesection" id="#home">
         <div className="myHome">
           <Container>
             <div className="homContainer">
@@ -37,7 +37,7 @@ export default function Home() {
           </Container>
         </div>
       </section>
-      <section className="aboutSection">
+      <section className="aboutSection" id="#about">
         <Container>
           <div className="mainAbout">
             <div className="aboutPhoto">
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </Container>
       </section>
-      <section className="workActivites">
+      <section className="workActivites"id="#work">
         <Container>
           <Row>
             <Col>
@@ -137,7 +137,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="skillDevelopment">
+      <section className="skillDevelopment" id="#skills">
         <Container>
           <h1 className="aboutme">Skills</h1>
           <div className="borderline"></div>
@@ -254,10 +254,10 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="projectSection">
+      <section className="projectSection"id="#projects">
       <h1>This is Project section</h1>
       </section>
-      <section className="getInTouch">
+      <section className="getInTouch"id="#contact">
       <Container>
       <h1 className="aboutme">Get In Touch</h1>
           <div className="borderline"></div>

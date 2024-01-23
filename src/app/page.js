@@ -37,6 +37,47 @@ export default function Home() {
           </Container>
         </div>
       </section>
+      <section className="aboutSection" id="#about">
+        <Container>
+          <div className="mainAbout">
+            <div className="aboutPhoto">
+              <Image
+                className="aboutImage img-fluid"
+                src={homePhoto}
+                alt="Web Logo"
+              />
+            </div>
+            <div className="aboutContent">
+              <h1 className="aboutme">About Me</h1>
+              <div className="borderline"></div>
+              <div className="borderlineTwo"></div>
+              <article className="articleOne">
+                For instance, whenever I go back to the guest house during the
+                morning to copy out the contract, these gentlemen are always
+                still sitting there eating their breakfasts. I ought to just try
+                that with my boss; I'd get kicked out on the spot.
+              </article>
+              <article className="articleTwo">
+                But who knows, maybe that would be the best thing for me. He'd
+                fall right off his desk! And it's a funny sort of business to be
+                sitting up there at your desk, talking down at your
+                subordinates. I ought to just try that witht my boss; I'd get
+                kicked out on the spot. But who knows, maybe that would be the
+                best thing for me. He'd fall right off his desk! And it's a
+                funny sort of business to be sitting up there at your desk,
+                talking down at your subordinates.
+              </article>
+              <div className="socialIcons">
+                <i className="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
     </main>
   );
 }

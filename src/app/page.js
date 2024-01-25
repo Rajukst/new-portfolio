@@ -13,7 +13,10 @@ import next from "../app/Asset/next.webp";
 import aws from "../app/Asset/aws.webp";
 import react from "../app/Asset/react.webp";
 import devops from "../app/Asset/devops.webp";
+import project1 from "../app/Asset/project1.webp";
+import project2 from "../app/Asset/project2.webp";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -51,27 +54,19 @@ export default function Home() {
               <h1 className="aboutme">About Me</h1>
               <div className="borderline"></div>
               <div className="borderlineTwo"></div>
+              <h5 className="mt-3">Who Am I?</h5>
               <article className="articleOne">
-                For instance, whenever I go back to the guest house during the
-                morning to copy out the contract, these gentlemen are always
-                still sitting there eating their breakfasts. I ought to just try
-                that with my boss; I'd get kicked out on the spot.
+              I am not just lines of code; I am a dedicated MERN stack developer with a keen eye for detail and a heart that beats in JavaScript. My journey in the tech realm began with a simple fascination for turning ideas into interactive, user-friendly experiences.
               </article>
+              <h5>What Drives Me?</h5>
               <article className="articleTwo">
-                But who knows, maybe that would be the best thing for me. He'd
-                fall right off his desk! And it's a funny sort of business to be
-                sitting up there at your desk, talking down at your
-                subordinates. I ought to just try that witht my boss; I'd get
-                kicked out on the spot. But who knows, maybe that would be the
-                best thing for me. He'd fall right off his desk! And it's a
-                funny sort of business to be sitting up there at your desk,
-                talking down at your subordinates.
+              The thrill of problem-solving and the endless possibilities of technology drive me to explore new horizons continually. Whether it's a complex bug that needs fixing or a feature that requires innovation, I find solace in the dance between logic and creativity. Coding isn't just a job for me; it's a lifelong adventure.
               </article>
               <div className="socialIcons">
-                <i className="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-github"></i>
+                <Link href="https://www.facebook.com/rajuahamedkst" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
+              <Link href="https://twitter.com/Rajukst15" target="_blank"><i className="fa-brands fa-twitter"></i> </Link>  
+              <Link href="https://www.linkedin.com/in/rajuahamedkst" target="_blank"><i className="fa-brands fa-linkedin-in"></i></Link>  
+               <Link href="https://github.com/Rajukst" target="_blank"><i className="fa-brands fa-github"></i></Link> 
               </div>
             </div>
           </div>
@@ -80,25 +75,7 @@ export default function Home() {
       <section className="workActivites"id="#work">
         <Container>
           <Row>
-            <Col>
-              <div className="workHeadingTwo">
-                <Image
-                  className="homeImages img-fluid"
-                  src={designPhoto}
-                  alt="Web Logo"
-                />
-                <div className="hrLine"></div>
-                <div className="workContent">
-                  <h5>DevOps Development</h5>
-                  <article>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis tempore ex quam ullam sint ipsam doloremque
-                    culpa aspernatur nostrum officiis?
-                  </article>
-                </div>
-              </div>
-            </Col>
-            <Col>
+          <Col xs={12} md={4} lg={4}>
               <div className="workHeadingTwo">
                 <Image
                   className="homeImages img-fluid"
@@ -109,14 +86,12 @@ export default function Home() {
                 <div className="workContent">
                   <h5>Web Development</h5>
                   <article>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis tempore ex quam ullam sint ipsam doloremque
-                    culpa aspernatur nostrum officiis?
+                  Proficient in MERN stack development, I can make dynamic and scalable web applications With expertise in MongoDB, Express.js, React.js, and Node.js, ensuring efficient and feature-rich platforms for a diverse range of user requirements.
                   </article>
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col xs={12} md={4} lg={4}>
               <div className="workHeadingTwo">
                 <Image
                   className="homeImages img-fluid"
@@ -127,9 +102,23 @@ export default function Home() {
                 <div className="workContent">
                   <h5>Web Design</h5>
                   <article>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis tempore ex quam ullam sint ipsam doloremque
-                    culpa aspernatur nostrum officiis?
+                  As a skilled web designer, I specialize in crafting visually captivating and user-friendly websites. Proficient in UI/UX principles, HTML, CSS, and design tools, I ensure a seamless fusion of aesthetics and functionality to deliver compelling and effective online experiences.
+                  </article>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={4} lg={4}>
+              <div className="workHeadingTwo">
+                <Image
+                  className="homeImages img-fluid"
+                  src={designPhoto}
+                  alt="Web Logo"
+                />
+                <div className="hrLine"></div>
+                <div className="workContent">
+                  <h5>DevOps Development</h5>
+                  <article>
+                  Proficient in DevOps, I integrate development and operations to optimize web development processes. Through automation, continuous integration, and deployment, I enhance collaboration, ensuring seamless, scalable, and high-performance web solutions for a superior online experience.
                   </article>
                 </div>
               </div>
@@ -137,8 +126,6 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
-
        <section className="skillDevelopment" id="#skills">
         <Container>
           <h1 className="aboutme">Skills</h1>
@@ -256,16 +243,61 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
-
-
       <section className="projectSection"id="#projects">
-      <h1>This is Project section</h1>
+      <Container>
+      <h1 className="mt-5">Projects</h1>
+      <div className="borderline"></div>
+          <div className="borderlineTwo"></div>
+          <Row className="g-4 mt-5">
+          <Col xs={12} md={4} lg={4}>
+          <div className="projectOne">
+          <Image
+                  className="projectImage img-fluid"
+                  src={project1}
+                  alt="Web Logo"
+                />
+                <div className="features">
+                  <h5>Key Features:</h5>
+                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
+                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                </div>
+          </div>
+          </Col>
+          <Col xs={12} md={4} lg={4}>
+          <div className="projectOne">
+          <Image
+                  className="projectImage img-fluid"
+                  src={project2}
+                  alt="Web Logo"
+                />
+                <div className="features">
+                  <h5>Key Features:</h5>
+                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
+                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                </div>
+          </div>
+          </Col>
+          <Col xs={12} md={4} lg={4}>
+          <div className="projectOne">
+          <Image
+                  className="projectImage img-fluid"
+                  src={project1}
+                  alt="Web Logo"
+                />
+                <div className="features">
+                  <h5>Key Features:</h5>
+                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
+                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                </div>
+          </div>
+          </Col>
+          </Row>
+          
+      </Container>
       </section>
-
    <section className="getInTouch"id="#contact">
       <Container>
-      <h1 className="aboutme">Get In Touch</h1>
+      <h1 className="aboutme mt-5">Get In Touch</h1>
           <div className="borderline"></div>
           <div className="borderlineTwo"></div>
           <div className="mainGet">
@@ -276,10 +308,10 @@ export default function Home() {
               <article><i className="fa-solid fa-phone"></i>+8801765629262, <i className="fa-brands fa-whatsapp"></i> +8801765629262 </article>
               <article><i className="fa-solid fa-at"></i> rajuahamedkst15@gmail.com</article>
               <div className="followMe">
-              <i className="fa-brands fa-facebook-f"></i>
-                <i className="fa-brands fa-twitter"></i>
-                <i className="fa-brands fa-linkedin-in"></i>
-                <i className="fa-brands fa-github"></i>
+              <Link href="https://www.facebook.com/rajuahamedkst" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
+              <Link href="https://twitter.com/Rajukst15" target="_blank"><i className="fa-brands fa-twitter"></i> </Link>  
+              <Link href="https://www.linkedin.com/in/rajuahamedkst" target="_blank"><i className="fa-brands fa-linkedin-in"></i></Link>  
+               <Link href="https://github.com/Rajukst" target="_blank"><i className="fa-brands fa-github"></i></Link> 
               </div>
             </div>
             <div className="touchInput ps-5">

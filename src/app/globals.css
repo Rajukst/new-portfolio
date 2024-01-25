@@ -101,7 +101,7 @@
   letter-spacing: 1.5px;
   word-spacing: 1.1px;
   margin-bottom: 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .articleTwo{
   font-size: 15px;
@@ -109,6 +109,11 @@
   letter-spacing: 1.5px;
   word-spacing: 1.1px;
   margin-bottom: 20px;
+}
+
+.socialIcons a{
+ text-decoration: none;
+ color: #202020;
 }
 .socialIcons i{
   margin-right: 20px;
@@ -151,6 +156,31 @@ transition: all 0.5s ease-out;
 }
 .skillDevelopment{
   margin-top: 40px;
+}
+.workContent{
+  text-align: justify;
+}
+.followMe a{
+  text-decoration: none;
+  color: #202020;
+}
+.fa-facebook-f{
+  transition: all 0.5s ease-out;
+}
+.fa-facebook-f:hover, .fa-facebook-f:focus{
+color: #316FF6;
+}
+.fa-twitter{
+  transition: all 0.5s ease-out;
+}
+.fa-twitter:hover, .fa-twitter:focus{
+  color: #00ACEE;
+}
+.fa-linkedin-in:hover{
+  color:#0077b5;
+}
+.fa-github:hover{
+  color: #171515;
 }
 .followMe i{
   margin-right: 30px;
@@ -205,4 +235,7 @@ transition: all 0.5s ease-out;
 .SkillImages{
   height: 150px;
   width: 150px;
+}
+.features{
+  text-align: justify;
 }

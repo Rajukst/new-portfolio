@@ -239,3 +239,17 @@ color: #316FF6;
 .features{
   text-align: justify;
 }
+.footer{
+  margin-top: 50px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footerarticle{
+  justify-content: center;
+}
+.mainFooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

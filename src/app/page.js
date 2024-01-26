@@ -15,6 +15,7 @@ import react from "../app/Asset/react.webp";
 import devops from "../app/Asset/devops.webp";
 import project1 from "../app/Asset/project1.webp";
 import project2 from "../app/Asset/project2.webp";
+import logo from "../app/Asset/darklogo.webp"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -82,7 +83,6 @@ export default function Home() {
                   src={designPhoto}
                   alt="Web Logo"
                 />
-                <div className="hrLine"></div>
                 <div className="workContent">
                   <h5>Web Development</h5>
                   <article>
@@ -98,7 +98,6 @@ export default function Home() {
                   src={designPhoto}
                   alt="Web Logo"
                 />
-                <div className="hrLine"></div>
                 <div className="workContent">
                   <h5>Web Design</h5>
                   <article>
@@ -114,7 +113,6 @@ export default function Home() {
                   src={designPhoto}
                   alt="Web Logo"
                 />
-                <div className="hrLine"></div>
                 <div className="workContent">
                   <h5>DevOps Development</h5>
                   <article>
@@ -330,7 +328,19 @@ export default function Home() {
             </div>
           </div>
       </Container>
-      </section>    
+      </section>
+      <section className="footer">
+        <Container>
+          <div className="mainFooter">
+          <div className="footerLeft">
+          <Image className='footerImg' src={logo} alt='Web Logo'/>
+          </div>
+          <div className="footerRight">
+          <article className="footerarticle">© all Rights Reserved. Developed By Raju Ahammed</article>
+          </div>
+          </div>
+        </Container>
+        </section>    
     </main>
   );
 }

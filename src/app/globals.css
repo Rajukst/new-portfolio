@@ -253,3 +253,6 @@ color: #316FF6;
   align-items: center;
   justify-content: space-between;
 }
+.technology{
+  font-weight: bold;
+}

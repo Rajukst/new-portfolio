@@ -99,10 +99,9 @@ export default function Home() {
                   alt="Web Logo"
                 />
                 <div className="workContent">
-                  <h5>Web Design</h5>
+                  <h5>App Development</h5>
                   <article>
-                  As a skilled web designer, I specialize in crafting visually captivating and user-friendly websites. Proficient in UI/UX principles, HTML, CSS, and design tools, I ensure a seamless fusion of aesthetics and functionality to deliver compelling and effective online experiences.
-                  </article>
+                  Skilled React Native developer with expertise in JavaScript and React, specializing in cross-platform mobile app development. Proficient in UI/UX design and API integration, I deliver high-quality, responsive applications for diverse platforms.</article>
                 </div>
               </div>
             </Col>
@@ -113,11 +112,10 @@ export default function Home() {
                   src={designPhoto}
                   alt="Web Logo"
                 />
-                <div className="workContent">
-                  <h5>DevOps Development</h5>
+                 <div className="workContent">
+                  <h5>Web Design</h5>
                   <article>
-                  Proficient in DevOps, I integrate development and operations to optimize web development processes. Through automation, continuous integration, and deployment, I enhance collaboration, ensuring seamless, scalable, and high-performance web solutions for a superior online experience.
-                  </article>
+                  As a web designer, I merge creativity with technical expertise, using design tool create visually stunning and user-friendly responsive design. I collaborate closely with clients to transform their ideas into engaging and functional online experiences.</article>
                 </div>
               </div>
             </Col>
@@ -257,7 +255,7 @@ export default function Home() {
                 <div className="features">
                   <h5>Key Features:</h5>
                   <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
-                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
                 </div>
           </div>
           </Col>
@@ -271,7 +269,7 @@ export default function Home() {
                 <div className="features">
                   <h5>Key Features:</h5>
                   <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
-                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
                 </div>
           </div>
           </Col>
@@ -285,7 +283,7 @@ export default function Home() {
                 <div className="features">
                   <h5>Key Features:</h5>
                   <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
-                  <article>Technology: Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
                 </div>
           </div>
           </Col>

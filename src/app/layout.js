@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
           <Image className='logoImage' src={logo} alt='Web Logo'/>
           </div>
           <div className="navContent">
-          <Link href="#home">Home</Link>
-          <Link href="#projects">Projects</Link>
-          <Link href="#skills">Skills</Link>
-          <Link href="#about">About Me</Link>
-          <Link href="#contact">Contact</Link>
+          <NavLink to="#">Home</NavLink>
+          <NavLink href="#">Projects</NavLink>
+          <Link href="#">Skills</Link>
+          <Link href="#">About Me</Link>
+          <Link href="#">Contact</Link>
           </div>
         </div>
         {children}

@@ -3,7 +3,7 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "next/image";
 import logo from "../app/Asset/rlogo.webp";
-import { NavLink } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
           <Image className='logoImage' src={logo} alt='Web Logo'/>
           </div>
           <div className="navContent">
-          <NavLink to="#">Home</NavLink>
-          <NavLink href="#">Projects</NavLink>
-          <Link href="#">Skills</Link>
-          <Link href="#">About Me</Link>
-          <Link href="#">Contact</Link>
+          <Link href="#home">Home</Link>
+          <Link href="#projects">Projects</Link>
+          <Link href="#skills">Skills</Link>
+          <Link href="#about">About Me</Link>
+          <Link href="#contact">Contact</Link>
           </div>
         </div>
         {children}

@@ -1,3 +1,4 @@
+
 import { Col, Container, Row } from "react-bootstrap";
 import homePhoto from "../app/Asset/bg.webp";
 import designPhoto from "../app/Asset/webdesing.webp";
@@ -22,7 +23,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <section className="homesection" id="#home">
+      <section className="homesection" id="home">
         <div className="myHome">
           <Container>
             <div className="homeContainer">
@@ -41,7 +42,7 @@ export default function Home() {
           </Container>
         </div>
       </section>
-      <section className="aboutSection" id="#about">
+      <section className="aboutSection" id="about">
         <Container>
           <div className="mainAbout">
             <div className="aboutPhoto">
@@ -59,7 +60,7 @@ export default function Home() {
               <article className="articleOne">
               I am not just lines of code; I am a dedicated MERN stack developer with a keen eye for detail and a heart that beats in JavaScript. My journey in the tech realm began with a simple fascination for turning ideas into interactive, user-friendly experiences.
               </article>
-              <h5>What Drives Me?</h5>
+              <h5 className="divesme">What Drives Me?</h5>
               <article className="articleTwo">
               The thrill of problem-solving and the endless possibilities of technology drive me to explore new horizons continually. Whether it's a complex bug that needs fixing or a feature that requires innovation, I find solace in the dance between logic and creativity. Coding isn't just a job for me; it's a lifelong adventure.
               </article>
@@ -73,7 +74,7 @@ export default function Home() {
           </div>
         </Container>
       </section>
-      <section className="workActivites"id="#work">
+      <section className="workActivites"id="work">
         <Container>
           <Row>
           <Col xs={12} md={4} lg={4}>
@@ -122,7 +123,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-       <section className="skillDevelopment" id="#skills">
+       <section className="skillDevelopment" id="skills">
         <Container>
           <h1 className="aboutme">Skills</h1>
           <div className="borderline"></div>
@@ -239,7 +240,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className="projectSection"id="#projects">
+      <section className="projectSection"id="projects">
       <Container>
       <h1 className="mt-5">Projects</h1>
       <div className="borderline"></div>
@@ -291,7 +292,7 @@ export default function Home() {
           
       </Container>
       </section>
-   <section className="getInTouch"id="#contact">
+   <section className="getInTouch"id="contact">
       <Container>
       <h1 className="aboutme mt-5">Get In Touch</h1>
           <div className="borderline"></div>

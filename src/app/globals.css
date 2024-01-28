@@ -256,3 +256,11 @@ color: #316FF6;
 .technology{
   font-weight: bold;
 }
+@media screen and (max-width: 781px) {
+.articleTwo{
+  display: none;
+}
+.divesme{
+  display: none;
+}
+}

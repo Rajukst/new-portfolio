@@ -1,7 +1,9 @@
 
 import { Col, Container, Row } from "react-bootstrap";
 import homePhoto from "../app/Asset/bg.webp";
-import designPhoto from "../app/Asset/webdesing.webp";
+import designPhotojs from "../app/Asset/jsdev.png";
+import designPhotoApp from "../app/Asset/app.png";
+import designPhotoDesign from "../app/Asset/design.png";
 import html from "../app/Asset/html.webp";
 import css from "../app/Asset/css.webp";
 import js from "../app/Asset/js.webp";
@@ -81,7 +83,7 @@ export default function Home() {
               <div className="workHeadingTwo">
                 <Image
                   className="homeImages img-fluid"
-                  src={designPhoto}
+                  src={designPhotojs}
                   alt="Web Logo"
                 />
                 <div className="workContent">
@@ -96,7 +98,7 @@ export default function Home() {
               <div className="workHeadingTwo">
                 <Image
                   className="homeImages img-fluid"
-                  src={designPhoto}
+                  src={designPhotoApp}
                   alt="Web Logo"
                 />
                 <div className="workContent">
@@ -110,7 +112,7 @@ export default function Home() {
               <div className="workHeadingTwo">
                 <Image
                   className="homeImages img-fluid"
-                  src={designPhoto}
+                  src={designPhotoDesign}
                   alt="Web Logo"
                 />
                  <div className="workContent">
@@ -255,8 +257,11 @@ export default function Home() {
                 />
                 <div className="features">
                   <h5>Key Features:</h5>
-                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
+                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform where customer easily shopping from here. </article>
                   <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <div className="allButtons">
+                    <button><Link href="#">Live</Link></button>
+                  </div>
                 </div>
           </div>
           </Col>
@@ -269,8 +274,13 @@ export default function Home() {
                 />
                 <div className="features">
                   <h5>Key Features:</h5>
-                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
-                  <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <article>Eco-Cart is a MERN Stack single vendor e-commerce project. It designed and developed fully dynamic functionality. </article>
+                  <article><span className="technology">Technology:</span> React.js, Node.js, Express.js, Redux, Redux Toolkit, Mongodb, Render.</article>
+                  <div className="allButtons">
+                    <button><Link href="https://eco-cart.netlify.app/" target="_blank">Live</Link></button>
+                    <button><Link href="#">Github Client</Link></button>
+                    <button><Link href="#">Github Server</Link></button>
+                  </div>
                 </div>
           </div>
           </Col>
@@ -283,8 +293,11 @@ export default function Home() {
                 />
                 <div className="features">
                   <h5>Key Features:</h5>
-                  <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform, meticulously designed to cater to the discerning needs of customers. Functioning as a dedicated online marketplace, this website exclusively offers high-quality clothing items. With a focus on simplicity and user-friendliness, Cloth Bangladesh ensures a seamless shopping experience for its customers. </article>
-                  <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
+                  <article>Eco-Cart App is a React Native Cross Platform Android App. It is designed and developed user friendly native app performance. </article>
+                  <article><span className="technology">Technology:</span> React Native, Node.js, Redux, Redux Toolkit</article>
+                  <div className="allButtons">
+                    <button><Link href="#">Github</Link></button>
+                  </div>
                 </div>
           </div>
           </Col>

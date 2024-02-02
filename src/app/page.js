@@ -277,9 +277,9 @@ export default function Home() {
                   <article>Eco-Cart is a MERN Stack single vendor e-commerce project. It designed and developed fully dynamic functionality. </article>
                   <article><span className="technology">Technology:</span> React.js, Node.js, Express.js, Redux, Redux Toolkit, Mongodb, Render.</article>
                   <div className="allButtons">
-                    <button><Link href="https://eco-cart.netlify.app/" target="_blank">Live</Link></button>
-                    <button><Link href="#">Github Client</Link></button>
-                    <button><Link href="#">Github Server</Link></button>
+                    <button><Link href="https://ecocart.netlify.app/" target="_blank">Live</Link></button>
+                    <button><Link href="https://github.com/Rajukst/w-commerce" target="_blank">Github Client</Link></button>
+                    <button><Link href="https://github.com/Rajukst/w-commerce-server" target="_blank">Github Server</Link></button>
                   </div>
                 </div>
           </div>
@@ -294,7 +294,7 @@ export default function Home() {
                 <div className="features">
                   <h5>Key Features:</h5>
                   <article>Eco-Cart App is a React Native Cross Platform Android App. It is designed and developed user friendly native app performance. </article>
-                  <article><span className="technology">Technology:</span> React Native, Node.js, Redux, Redux Toolkit</article>
+                  <article><span className="technology">Technology:</span> React Native, Redux, Redux Toolkit</article>
                   <div className="allButtons">
                     <button><Link href="#">Github</Link></button>
                   </div>

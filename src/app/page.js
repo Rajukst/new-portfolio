@@ -260,7 +260,7 @@ export default function Home() {
                   <article>Cloth Bangladesh is a client-ready, single vendor e-commerce platform where customer easily shopping from here. </article>
                   <article><span className="technology">Technology:</span> Next.js, Node.js, Redux, MySql, AWS.</article>
                   <div className="allButtons">
-                    <button><Link href="#">Live</Link></button>
+                    <button><Link href="https://www.clothbangladesh.com/" target="_blank">Live</Link></button>
                   </div>
                 </div>
           </div>

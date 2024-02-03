@@ -305,7 +305,7 @@ export default function Home() {
                 <div className="features">
                   <h5>Key Features:</h5>
                   <article>Eco-Cart App is a React Native Cross Platform Android App. It is designed and developed user friendly native app performance. </article>
-                  <article><span className="technology">Technology:</span> React Native, Redux, Redux Toolkit</article>
+                  <article><span className="technology">Technology:</span> React Native, Redux, Redux Toolkit, Node.js, Express.js, Render</article>
                   <div className="allButtons">
                     <button><Link href="#">Github</Link></button>
                   </div>

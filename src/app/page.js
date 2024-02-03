@@ -1,6 +1,7 @@
 
 import { Col, Container, Row } from "react-bootstrap";
 import homePhoto from "../app/Asset/bg.webp";
+import homePhoto2 from "../app/Asset/bg2.webp";
 import designPhotojs from "../app/Asset/jsdev.png";
 import designPhotoApp from "../app/Asset/app.png";
 import designPhotoDesign from "../app/Asset/design.png";

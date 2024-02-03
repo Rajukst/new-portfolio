@@ -73,6 +73,7 @@
   margin-left: -40px;
   margin-top: -40px;
   border-radius: 5px;
+  filter: grayscale(100%);
 }
 .aboutSection{
   margin-top: 80px;
@@ -127,6 +128,9 @@ padding: 10px;
   margin-top: 40px;
 }
 .skillImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   transition: all 0.5s ease-out;
 }
@@ -247,8 +251,8 @@ color: #316FF6;
   font-weight: 400;
 }
 .SkillImages{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 .features{
   text-align: justify;

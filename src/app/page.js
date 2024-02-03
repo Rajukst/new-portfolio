@@ -32,6 +32,16 @@ export default function Home() {
             <div className="names">
            <h1 className="name">I'M Raju Ahammed</h1>
                 <h4>Web Developer</h4>
+                <Link
+                  className="very-important"
+                  href="/Raju Ahammed_FrontEnd_Developer_Resume.pdf"
+                  target="_blank"
+                  download
+                >
+                  <button variant="outline-info" className="mt-5 downloadResume">
+                    Download Resume
+                  </button>
+                </Link>
            </div>
            <div className="homePhoto">
            <Image
